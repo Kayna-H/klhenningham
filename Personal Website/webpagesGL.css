@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <!--
+      -Name: Kayna Henningham
+      -UnityID: klhennin
+      -Date: 09/17/2020
+      -Assignment: [Assignment Name]
+      -Description: [Assigment Description]
+      -->
+p {
+   		font-family:Times;
+   		font-size: 16px;
+   		color: #696969;
+}
+   
+   
+   
+#photo-resize {
+   
+   max-width: 250px ;
+   max-height: 300px ;
+   }
+   
+   
+   
+   
+   
+   
+.table-border  {
+	border: 1px solid #696969
+   		
+   }
