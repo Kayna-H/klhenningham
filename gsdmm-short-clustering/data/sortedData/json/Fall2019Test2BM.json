@@ -1,0 +1,323 @@
+[
+  {
+    "Entry": "Barcode - it is not a key abstraction as it can be represented by unique number or integerquantity - it is not a key abstraction as it can be represented by an integer"
+  },
+  {
+    "Entry": "Barcode can be represented using the existing String class, so a separate class need to be created for the same.Similarly, Cost can be represented using the Double or Float class and thus we need not create a class for the same."
+  },
+  {
+    "Entry": "barcode is a number to uniquely identify the itemsquantity is an attribute which tells us the number of items bought or sold, it will be a number"
+  },
+  {
+    "Entry": "Cost and Price both can be considered as attribute of item and can be implemented by primitive type integer or float. So we do not need to create abstraction for cost and price."
+  },
+  {
+    "Entry": "?Barcode? is not a key abstraction, because it is just an image of item.\"Cost? is not key abstractions, because it is just a numeric value."
+  },
+  {
+    "Entry": "they can be primitive classes"
+  },
+  {
+    "Entry": "quantity, just a number,retail price, just a number"
+  },
+  {
+    "Entry": "cost should not be a key abstraction because it is just a valuesystem should not be a key abstraction because it is a system class"
+  },
+  {
+    "Entry": "barcode of an item can just be a number.cost also can be a number."
+  },
+  {
+    "Entry": "quantity is a numeric value, specifically an integer value, doesn't require any additional class can be implemented in the same class"
+  },
+  {
+    "Entry": "barcode and quality are attributes of an item which are unique and should not be implemented as a class."
+  },
+  {
+    "Entry": "The terms cost and price are just numbers and can be visualized as fields of objects rather than classes."
+  },
+  {
+    "Entry": "Price is italicized in the above description but it can be represented by a primitive type (double/int) and thus, should not be a class.Items is also italicized in the description above but since it is not a singular noun, it shouldn't be a class."
+  },
+  {
+    "Entry": "?barcode? is just an attribute of an item, so it is not key abstraction;\"reorder point\" is not key abstraction because it is just a numeric value"
+  },
+  {
+    "Entry": "Barcode can be represented by a string or number that corresponds to the labeled barcode. It is therefore a primitive, not a key abstraction.Reorder point is number, and is therefore a primitive that does not need to be a key abstraction."
+  },
+  {
+    "Entry": "price, it is just a number.quantity, it is just a number."
+  },
+  {
+    "Entry": "Barcode could just be an attribute of an 'Item'. Similarly, cost is also an attribute and not a key abstraction."
+  },
+  {
+    "Entry": "Cost and price are associated with an item and can really be represented just as a float or integer value in the item class. We do not gain any advantage in declaring classes for these terms."
+  },
+  {
+    "Entry": "Quantity is part of item class, it can be attributes of item classReorder does not necessarily have to class, we can create it as a function of System class also, as reordering is something done by the system."
+  },
+  {
+    "Entry": "cost is a HAS_A relationship, an attribute of the object item. It is just a number, and thus cannot be a class.price is a HAS_A relationship, an attribute of the object item. It is just a number, and thus cannot be a class."
+  },
+  {
+    "Entry": "They are just price. So they are just numbers and need not be implemented as class unless necessary."
+  },
+  {
+    "Entry": "They are not key abstraction because they have rigid functionality they represent the unique barcode of the item ad it's quantity respectively."
+  },
+  {
+    "Entry": "price and quantity are not key abstractions because they can be implemented using a primitive class object like \"float"
+  },
+  {
+    "Entry": "quantity is simply an integer that gives us the number of items, hence it shouldn't have dedicated classbarcode is just a unique number assigned to every item, hence it shouldn't have a dedicated class"
+  },
+  {
+    "Entry": "1. barcode is just a set on unique characters and it does not have other attributes. Hence, it can be treated just as a string.2. price is just a numeric quantity"
+  },
+  {
+    "Entry": "Cost and Price are just numbers and should be fields of methods objects rather than classes"
+  },
+  {
+    "Entry": "Cost and price are just numbers and can be implemented by integers"
+  },
+  {
+    "Entry": "cost would just be an integer. There is no need for a class. (same goes with price)quantity is just the count of no of items bought or sold. There is no need for a class."
+  },
+  {
+    "Entry": "Both Quantity and Cost could be handled by primitive data type and thus no need to have key abstraction"
+  },
+  {
+    "Entry": "quantity: This is just an integer which can be implemented in the item class or inventory class as an attribute.reorder: Even this is an integer for a particular item and can be implemented in the Item class itself or if its common across Items, then in Inventory. So, this is also not a key-abstraction."
+  },
+  {
+    "Entry": "Both of these can be declared by primitive types as they are just numbers. No separate class is required."
+  },
+  {
+    "Entry": "Because barcode just represents a number and order has information missing about its type"
+  },
+  {
+    "Entry": "Items - plural noun - OOP considers only singular nouns as classesCost - Numeric primitive (Simply a numeric value)"
+  },
+  {
+    "Entry": "Cost is a primitive type. A primitive type like float is sufficient to describe it. It does not need a class of its own.Similarly, a barcode is also going to be a primitive consisting of alphanumeric digits. Its value is going to be a unique value to each item and so its type can be a String which is sufficient. Hence these two should not be implemented as a class."
+  },
+  {
+    "Entry": "Cost can be represented by the Integer or long or float which is a primitive type.Price can be represented by the Integer or long or float which is a primitive type.Hence cost and price can be represented by primitive classes and no need to make individual class for them."
+  },
+  {
+    "Entry": "The barcode and price can both be represented by primitive types, possibly string and double, respectively."
+  },
+  {
+    "Entry": "Price and Cost: We can use integer to represent it. It should be attributes of items."
+  },
+  {
+    "Entry": "They are just numbers."
+  },
+  {
+    "Entry": "They are not key abstractions as quantity can be a part of the Order and barcode can be a part of Item"
+  },
+  {
+    "Entry": "1. cost - This is just a number unless given otherwise. It should not be the class but the variable.2. price - This is just a number and hence can be taken as variable, it can be calculated based on the quantity sold or bought"
+  },
+  {
+    "Entry": "Quantity and reorder point are just integers and can be stored as such instead of creating a new class altogether."
+  },
+  {
+    "Entry": "price and cost are integer values corresponding to an item so it can be implemented as instance variables of item class. and no need to implement as classes themselves."
+  },
+  {
+    "Entry": "Price cannot be implemented as a class because it is a value (integer ot float) that would be specific to an item, and can be obtained from the get_price method of Item class.Barcode is again a unique value that should be returned and hence it is not feasible to implement it as a class."
+  },
+  {
+    "Entry": "reorder point: it can be just a simple integer number. So, no need to define it as a key abstractionquantity: This can also be an integer and whenever some item is sold/purchased, its value can be updated. no need to define it as a key abstraction"
+  },
+  {
+    "Entry": "Cost and barcode are attributes of item - cost is a fixed number and barcode will be a fixed attribute too . Thus there is no need to implement them as a separate class."
+  },
+  {
+    "Entry": "1. Quantity - We should not implement a separate class for quantity. It is associated with the Inventory and Item class. Hence, we can keep track of the quantity by declaring an attribute inside one of these classes.2. System - System is a predefined class in Java. And in many different operating system, it may refer to the internal class used by the operating system. Hence we should not define a class by this name."
+  },
+  {
+    "Entry": "1) quantity is a single number that is related with item. It is a specific number so no need to implement it differently. Instead we can use inbuilt integer or similar class to store quantity value.2) Reorder point is a certain specific (border) value which decides when to reorders an item when the number in stock falls. Similar to above case where we can use Integer or inbuilt class."
+  },
+  {
+    "Entry": "1. quantity tells us the number of items and therefore would be an integer.2. stock of the store is also an integer."
+  },
+  {
+    "Entry": "'cost' is a primitive type. Here, it can be an integer or a floating-point value hence there is no need for class implementation.'reorder point' is a primitive type. In the given case, it can be an integer and will determine the least quantity of a particular item that is allowed. If the stock falls below this,the system reorders the item. Hence, there is no need for class implementation.'barcode' will also be a unique attribute for each item. It can be a number or a string depending on the actual implementation. Hence, no class implementation of the same name is required."
+  },
+  {
+    "Entry": "Both barcode and price can be implemented as String and Float respectively and do not need a class to be defined for them."
+  },
+  {
+    "Entry": "Quantity is just a number and should not be implemented as a key abstraction.Reorder point denotes a threshold below which the books should be ordered. It is just a number and should not be implemented as classes"
+  },
+  {
+    "Entry": "Price and Cost are the attributes of each item and they are not key abstractions since they do not have any other relation or impact on each item. Thus, they are best used as attributes, and not as classes."
+  },
+  {
+    "Entry": "barcode is an attribute of item class and therefore come as a variable in item class.reorder point is an attribute associated with each item, so it will be a member variable of the class item"
+  },
+  {
+    "Entry": "barcode and quantity are properties of the item and should not have a separate class with their name, but should be implemented in the Inventory class."
+  },
+  {
+    "Entry": "Cost and Price are two attributes of an item and thus they should not be implemented as classes."
+  },
+  {
+    "Entry": "Retail and Wholesale prices are just some arbitrary number. It should go as instance variables in Item class, not a class on their own. Same argument for Quantity and Barcode."
+  },
+  {
+    "Entry": "cost and price can be variables in the item class."
+  },
+  {
+    "Entry": "barcode: barcode is associated with an item but does not any other attributes or fields that describe barcode.reorder point: Here, reorder point can be added to each item that states whenever the stock goes below this point, reorder them. it is redundant to create a class for that."
+  },
+  {
+    "Entry": "- barcode is not a key abstraction as it is specific to a particular Item and it must form an attribute on the Item class.- price is not a key abstraction as it is specific to particular Item and must not be handled independently. It forms an attribute on the Item class."
+  },
+  {
+    "Entry": "Barcode is an attribute of item which can be represented by the primitive class string. Reorder Point is also just a number denoting a quantity"
+  },
+  {
+    "Entry": "Cost can be implemented by system attribute most likely Int or fixed-point number. Another such example is price. Stock is ambiguous to inventory class and hence does not need re-implementation."
+  },
+  {
+    "Entry": "1. Barcode being a unique string/integer can just be assigned to an Item class object. It does not have any attribute of its own, so its not a key abstraction.2. Reorder point is an integer value, doesn't need to be a key abstraction. It does not have any attributes or functions of its own."
+  },
+  {
+    "Entry": "cost is an integer and can be an attribute for class item.quantity will be an attribute for class item. each item will have quantity so there is no need for quantity to be class. barcode also cannot be a class because it uniquely identifies the item it need not be a class."
+  },
+  {
+    "Entry": "'Inventory' corresponds with stock in many manners. It does not have a spe'Stock' again does not have a quantified definition."
+  },
+  {
+    "Entry": "Barcode is an attribute of an item. Barcode does not have any property in this scenario.Quantity bought/sold is an attribute of orders. It does not require to be a class on its own."
+  },
+  {
+    "Entry": "Quantity and Price should should not be implemented as key abstractions of the system because we can use primitive types to represent them. Hence we do not need to implement them as a class."
+  },
+  {
+    "Entry": "cost - use of integer or float would be enough to represent the cost of the item.price - again the use of integer or float would be enough to represent the cost of the item."
+  },
+  {
+    "Entry": "Quantity and price are not key abstractions because they are the attributes of an item class and we do not need a separate class to represent them."
+  },
+  {
+    "Entry": "Barcode is a unique value.Barcode can be assigned.Barcode does not depend on anything or has any attributes. Hence, Barcode is not a key abstraction.Item does not depend on anything or has any attributes. Hence, it is not a key abstraction."
+  },
+  {
+    "Entry": "Both price and cost can be represented using the primitive types, like double or float."
+  },
+  {
+    "Entry": "Cost: It is more likely to be an attribute of an item rather than a standalone object in itself. Quantity: It cannot be an entity as it signifies values associated with something or it is more apt to use it as an attribute. Here in this scenario it is quantity of an item."
+  },
+  {
+    "Entry": "The primitive type 'float' is sufficient to implement cost and price."
+  },
+  {
+    "Entry": "Because they can simply express with a int attribute/various.Also, there isn't any operating supposed to be done by them, in the other word it has no function."
+  },
+  {
+    "Entry": "1.Barcode is unique for each item so we can have item where there is name, barcode, quantity attributes. So no need to implement as a class.2. Cost can be derived from quantity as said in requirement number 4.So it can be just a funtion in item class."
+  },
+  {
+    "Entry": "Cost and Price are attributes of items. So they can not be used as key abstractions."
+  },
+  {
+    "Entry": "cost can be represented by a primitive; floatprice can be represented by a primitive; float."
+  },
+  {
+    "Entry": "Because they are ambiguous term, which refer to single entity or key abstraction \"User\"."
+  },
+  {
+    "Entry": "barcode is only used for uniquely identifying an item. It can be stored as an attribute for Item class.Similarly, cost is just a number, which can be assigned to Item. It can sit as attribute for Item class.Both barcode and cost are values that each Item can have. These are simple 'property' of Items and hence they can be stored as attributes for Item class."
+  },
+  {
+    "Entry": "They are attributes not classes."
+  },
+  {
+    "Entry": "Because they are item's attributes and just numbers . No need to be implemented as classes."
+  },
+  {
+    "Entry": "They are just unique string or number."
+  },
+  {
+    "Entry": "Barcode and cost are the private fields of an Item in the system design. So they are not key abstractions."
+  },
+  {
+    "Entry": "the cost and price are two number which represent the wholesale cost and retail price, so that it should be be implemented as classes"
+  },
+  {
+    "Entry": "The barcode should be an attribute of an item, so it should be not implemented as a classPrice is also an attribute of an item, so it should not be implemented as a class"
+  },
+  {
+    "Entry": "These both are numbers, which already have system implementations."
+  },
+  {
+    "Entry": "They are just simple attributes that a specific item has, and they can be implemented using String and Integer respectively."
+  },
+  {
+    "Entry": "Price is an attribute of the item.Order can be generated from other classes instead of creating a specific class for it."
+  },
+  {
+    "Entry": "barcode is just a number.quantity is also just a number."
+  },
+  {
+    "Entry": "the barcode could only be a string and the cost should only be a double, So we should not implement them as classes."
+  },
+  {
+    "Entry": "items - it is plural and class names are usually singularbarcode - it is probably a number"
+  },
+  {
+    "Entry": "These terms can be represented by existing units; therefore, they do not need a dedicated class. For example, a barcode could be stored as a string property on an object. Furthermore, these are attributes that belong to something else and are therefore meaningless on their own."
+  },
+  {
+    "Entry": "quantity and barcode can be attributes to a class rather than a separate class itself. They can be attributes to the item class and customer class as mentioned above."
+  },
+  {
+    "Entry": "Cost and Price are both numbers which can be made a part of other classes and do not have any functionality of their own and thus need not be made into classes."
+  },
+  {
+    "Entry": "They are not key abstractions because they would just be fields in the item class."
+  },
+  {
+    "Entry": "Barcode should not be a class as it can be implemented using primitive types.Similarly, cost should not be a class as it can be implemented using primitives."
+  },
+  {
+    "Entry": "The barcode is just a number, thus an attribute assigned to the Item class.Same reason for the reorder point, but if a track of reorder points of specific items are required, then the reorder point needs to become a class."
+  },
+  {
+    "Entry": "Reorder point and quantity are just a number"
+  },
+  {
+    "Entry": "Both of these are simply values that can be represented by primitive datatypes, and they have little or no responsibilities beyond being set or read."
+  },
+  {
+    "Entry": "Barcode and cost are attributes describing an item, thus is not worthy to create a class for each of them."
+  },
+  {
+    "Entry": "because they can be specific to one particular item"
+  },
+  {
+    "Entry": "they are attributes of items and not abstractions"
+  },
+  {
+    "Entry": "Reorder point \" is not a key abstraction, because it refers to a specific object of class system\"barcode\" is not a key abstraction, because it just a integral of item"
+  },
+  {
+    "Entry": "Because barcode and cost are attributes of an item, should not be classes. They don' t have behaviors."
+  },
+  {
+    "Entry": "Quantity is just a number, same for cost. They should both be inherently clear as to what they are and what they will do and how they will be formatted."
+  },
+  {
+    "Entry": "system: it just a software (app).barcode: it is just a number."
+  },
+  {
+    "Entry": "they are both just numbers."
+  },
+  {
+    "Entry": "Because they are both just numbers."
+  }
+]
