@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kaynadabaddest/CLionProjects/project2/base.c
+base.h
+/Users/kaynadabaddest/CLionProjects/project2/base.h
+stdio.h
+-
+stdbool.h
+-
+ctype.h
+-
+operation.h
+/Users/kaynadabaddest/CLionProjects/project2/operation.h
+
+/Users/kaynadabaddest/CLionProjects/project2/base.h
+
+/Users/kaynadabaddest/CLionProjects/project2/calc.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+base.h
+/Users/kaynadabaddest/CLionProjects/project2/base.h
+operation.h
+/Users/kaynadabaddest/CLionProjects/project2/operation.h
+
+/Users/kaynadabaddest/CLionProjects/project2/operation.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+limits.h
+-
+
+/Users/kaynadabaddest/CLionProjects/project2/operation.h
+
